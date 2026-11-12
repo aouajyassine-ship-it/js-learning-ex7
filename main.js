@@ -4,6 +4,7 @@ const liste = document.getElementById("liste")
 
 console.log(courses[3])
 console.log(courses.length)
+courses.push(['Cafe'])
 
 total.textContent = courses.length+" articles"
 
